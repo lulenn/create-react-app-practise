@@ -1,3 +1,4 @@
+import Button from 'src/components/Button';
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
@@ -18,6 +19,13 @@ function App() {
         >
           Learn React
         </a>
+
+        <div>
+          <Button type="primary">Primary</Button>
+          <Button>Default</Button>
+          <Button type="dashed">Dashed</Button>
+          <Button type="link">Link</Button>
+        </div>
       </header>
     </div>
   );
